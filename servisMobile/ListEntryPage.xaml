@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="servisMobile.ListEntryPage"
+             Title="ListEntryPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add an Car"
+            Clicked="OnCarListAddedClicked" />
+    </ContentPage.ToolbarItems>
+    <ListView x:Name="listView"
+            Margin="20"
+            ItemSelected="OnListViewItemSelected">
+        <ListView.Header>
+            <Grid BackgroundColor="LightGray" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Proprietar/Masina"
+                       Grid.Column="0"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"
+                       FontAttributes="Bold" />
+                <Label Text="Pret lucrare"
+                       Grid.Column="1"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       FontAttributes="Bold" />
+            </Grid>
+        </ListView.Header>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Column="0" Orientation="Horizontal">
+                            <Label Text="{Binding Proprietar}"
+                                   VerticalOptions="Center" />
+                            <Label Text="{Binding Marca}"
+                                   VerticalOptions="Center"
+                                   Margin="5,0,0,0" />
+                            <!-- Adjust margin as needed -->
+                        </StackLayout>
+                        <Label Text="{Binding PretLucrare}"
+                               Grid.Column="1"
+                               HorizontalOptions="End"
+                               VerticalOptions="Center" />
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

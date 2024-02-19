@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = servisMobile
+build_property.ProjectDir = C:\Users\sebastianchis\Desktop\medii\servisMobile\servisMobile\
+
+[C:/Users/sebastianchis/Desktop/medii/servisMobile/servisMobile/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = servisMobile.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
+[C:/Users/sebastianchis/Desktop/medii/servisMobile/servisMobile/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = servisMobile.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/sebastianchis/Desktop/medii/servisMobile/servisMobile/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = servisMobile.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/sebastianchis/Desktop/medii/servisMobile/servisMobile/ListEntryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = servisMobile.ListEntryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListEntryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListEntryPage.xaml
+
+[C:/Users/sebastianchis/Desktop/medii/servisMobile/servisMobile/ListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = servisMobile.ListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListPage.xaml
+
+[C:/Users/sebastianchis/Desktop/medii/servisMobile/servisMobile/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = servisMobile.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/sebastianchis/Desktop/medii/servisMobile/servisMobile/MecanicPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = servisMobile.MecanicPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MecanicPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MecanicPage.xaml
+
+[C:/Users/sebastianchis/Desktop/medii/servisMobile/servisMobile/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = servisMobile.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/sebastianchis/Desktop/medii/servisMobile/servisMobile/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = servisMobile.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

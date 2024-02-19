@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="servisMobile.AboutPage"
+             Title="Welcome to Our Service">
+
+
+
+    <VerticalStackLayout Spacing="25" Padding="30">
+        <Image Source="carservis.png"
+              SemanticProperties.Description="My Shopping List"
+              HeightRequest="64" />
+        <Label 
+            Text="Welcome to Chis and Bordea Car Services!"
+            FontSize="24"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center" />
+
+        <Label
+            Text="Your trusted partners for all car maintenance and repair needs."
+            FontSize="16"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"/>
+
+        <Label
+            Text="Founded by Sebastian Chis and Bordea Adelin, we're committed to providing top-notch services to keep your vehicle running smoothly."
+            FontSize="14"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"/>
+
+        <Button Text="Our Services"
+                VerticalOptions="End"
+                HorizontalOptions="Fill"
+                Clicked="OnCounterClicked"
+                Command="{Binding NavigateToServicesCommand}"/>
+
+        <Button Text="Contact Us"
+                VerticalOptions="End"
+                HorizontalOptions="Fill"
+                Clicked="OnCounterClicked"
+                Command="{Binding NavigateToContactCommand}"/>
+
+    </VerticalStackLayout>
+</ContentPage>

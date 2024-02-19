@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="servisMobile.ListPage"
+             Title="ListPage">
+    <StackLayout Margin="20">
+        <!-- Optional: Include if you added Description to your model -->
+        <Entry Placeholder="Enter owner name"
+               Text="{Binding Proprietar}" />
+        <Entry Placeholder="Enter description"
+               Text="{Binding Description}" />
+        <Entry Placeholder="Enter marca"
+               Text="{Binding Marca}" />
+        <Entry Placeholder="Enter revizie"
+               Text="{Binding Revizie}" />
+        <Entry Placeholder="Enter pret lucrare"
+               Text="{Binding PretLucrare}"
+               Keyboard="Numeric" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Savee"
+                    Clicked="OnSaveButtonClicked" />
+            <Button Grid.Column="1"
+                    Text="Delete"
+                    Clicked="OnDeleteButtonClicked"/>
+        </Grid>
+
+        <ListView x:Name="listView"
+                        Margin="20">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Detail="{Binding Description}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
